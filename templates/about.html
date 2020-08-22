@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Our Team Section</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style_about3.css') }}">
+</head>
+<body>
+    <div class="about-section">
+        <h1>About Us</h1>
+        <p></p>
+  
+    </div>
+    
+    <div class="main">
+        <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li class="active"><a  href="#">About us</a></li>
+                <li><a href="{{ url_for('learnmore') }}">Learn More</a></li>
+            </ul>
+        </div>
+
+    
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="/static/images/IMG_20190825_114946__01.jpg" alt="Esha Pahwa" class="img_esh">
+      <div class="container">
+        <h2>Esha Pahwa</h2>
+        <p class="title">Developer</p>
+        <p>Exploring the world of tech with a guy who's good at maths. (Bios are important)</p>
+        
+         
+          <p><button class="button"><a href="mailto:f20180675@pilani.bits-pilani.ac.in">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/static/images/IMG-20200814-WA0020.jpg" alt="Achleshwar Luthra" class="img_ach">
+      <div class="container">
+        <h2>Achleshwar Luthra</h2>
+        <p class="title">Developer</p>
+        <p>Poker-faced, serious and good at maths. (I told her no one reads bios)</p>
+          <p><button class="button"><a href="mailto: f20180401@pilani.bits-pilani.ac.in">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+
+
+</body>
+</html>

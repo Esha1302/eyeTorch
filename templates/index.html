@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>eyeTorch</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style_index4.css') }}">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="static/logo1.png">
+            </div>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About us</a></li>
+                <li><a href="{{ url_for('learnmore') }}">Learn More</a></li>
+            </ul>
+        </div>
+        
+        <div class="title">
+            <h1>PyTorch Summer Hackathon</h1>
+        </div>
+        
+        <div class="members">
+            <h3> eyeTorch Diabetic Retinopathy Diagnosis</h3>
+            <br>
+            <h4> Created by: Esha Pahwa and           Achleshwar Luthra</h4>
+        </div>
+
+        <div class="predict">
+            <form action="{{ url_for('predict')}}"method="post" enctype="multipart/form-data">
+                <input type="file" name="file" id="img" style="display:none;">
+                <label for="img" class="file-input"></label>
+                <button class="submit_btn" type="submit">Submit</button>
+                </form> <br> <br>
+            
+        <p class="pred_text">{{ prediction_text }}</p>
+        </div>
+        
+    </header>
+    
+</body>
+</html>
