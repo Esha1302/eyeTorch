@@ -4,7 +4,7 @@ Download the model from our drive link: https://drive.google.com/file/d/1R9oUXGX
 
 Participants:
 <ul>
-  <li>Esha Pahwa - pahwa.esha@gmail.com </li>
+  <li>Esha Pahwa - f20180675@pilani.bits-pilani.ac.in </li>
   <li>Achleshwar Luthra - f20180401@pilani.bits-pilani.ac.in</li>
 </ul>
 
