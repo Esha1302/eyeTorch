@@ -53,7 +53,7 @@ def predict():
         return render_template('index.html', prediction_text="{}".format(str(result[category])))
 
 if __name__ == '__main__':
-    app.run(host = '0.0.0.0', port = 8080)
+    app.run(debug=True)
     
                    
                    
